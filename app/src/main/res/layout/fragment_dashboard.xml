@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.DashboardFragment" >
+
+
+    <TextView
+        android:id="@+id/tv_titulopilotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_pilotos"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@color/black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_pilotos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

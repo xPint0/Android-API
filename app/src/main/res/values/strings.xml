@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RecuperarAPI</string>
+    <string name="title_home">Home</string>
+    <string name="title_escuderias">Escuderias</string>
+    <string name="title_pilotos">Pilotos</string>
+    <string name="descripcion">Este aplicacion este creada para mostrar un ejemplo de como integrar APIs en tus proyectos de Kotlin,
+                                para ello nos valemos de una API publica y gratuita.</string>
+</resources>

@@ -9,5 +9,5 @@ API Documentation : https://documenter.getpostman.com/view/11586746/SztEa7bL
 >This project has been tested in a physical device with Android 11+ .
 
 >[!IMPORTANT]
-> Add Internet permission to your app.
+> Add Internet permissions to your app.
 
